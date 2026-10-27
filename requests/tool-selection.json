@@ -1,0 +1,14 @@
+{
+  "state": "Find the order with ID ORD-123.",
+  "questions": {
+    "tool": {
+      "type": "choice",
+      "instructions": "Which listed tool best fits the request?",
+      "criteria": {
+        "lookup_order": "Read an existing order by ID",
+        "search_docs": "Search product documentation",
+        "clarify": "Ask for missing or ambiguous information"
+      }
+    }
+  }
+}

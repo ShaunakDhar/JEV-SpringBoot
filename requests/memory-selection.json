@@ -1,0 +1,13 @@
+{
+  "state": "I prefer Java examples with Maven instead of Gradle.",
+  "questions": {
+    "durable": {
+      "type": "noul",
+      "instructions": "Does the message state a stable preference useful in future conversations?"
+    },
+    "sensitive": {
+      "type": "noul",
+      "instructions": "Does the message contain credentials, financial identifiers or highly sensitive personal details?"
+    }
+  }
+}

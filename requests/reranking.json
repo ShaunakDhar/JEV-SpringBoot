@@ -1,0 +1,27 @@
+{
+  "state": {
+    "query": "How do I start the lab?",
+    "passage_a": "Jev answers typed questions.",
+    "passage_b": "Run mvn spring-boot:run from the project directory to start the lab."
+  },
+  "questions": {
+    "passage_a": {
+      "type": "score",
+      "instructions": "How well does passage_a answer query?",
+      "criteria": [
+        "Does not answer the query",
+        "Partly answers the query",
+        "Directly answers the query"
+      ]
+    },
+    "passage_b": {
+      "type": "score",
+      "instructions": "How well does passage_b answer query?",
+      "criteria": [
+        "Does not answer the query",
+        "Partly answers the query",
+        "Directly answers the query"
+      ]
+    }
+  }
+}

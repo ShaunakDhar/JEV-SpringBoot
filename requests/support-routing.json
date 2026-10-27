@@ -1,0 +1,23 @@
+{
+  "state": "I was charged twice for my subscription. Please refund the extra charge today.",
+  "questions": {
+    "department": {
+      "type": "choice",
+      "instructions": "Which team should handle this message?",
+      "criteria": {
+        "billing": "Payments, refunds and invoices",
+        "technical": "Bugs and technical problems",
+        "other": "Anything else"
+      }
+    },
+    "urgency": {
+      "type": "score",
+      "instructions": "How urgent is this message?",
+      "criteria": [
+        "Can wait",
+        "Needs attention this week",
+        "Needs attention today"
+      ]
+    }
+  }
+}

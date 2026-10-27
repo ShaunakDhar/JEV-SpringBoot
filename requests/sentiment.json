@@ -1,0 +1,14 @@
+{
+  "state": "The course examples are easy to follow, and the exercises helped me learn Java.",
+  "questions": {
+    "sentiment": {
+      "type": "choice",
+      "instructions": "What sentiment does this review express?",
+      "criteria": {
+        "positive": "Mostly favorable",
+        "negative": "Mostly unfavorable",
+        "mixed": "Mixed, neutral or unclear"
+      }
+    }
+  }
+}

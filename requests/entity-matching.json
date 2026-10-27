@@ -1,0 +1,20 @@
+{
+  "state": {
+    "record_a": {
+      "name": "Acme USB-C cable",
+      "length": "2 m",
+      "sku": "AC-200"
+    },
+    "record_b": {
+      "name": "ACME Type C cable",
+      "length": "2 metres",
+      "sku": "AC-200"
+    }
+  },
+  "questions": {
+    "same_entity": {
+      "type": "noul",
+      "instructions": "Do record_a and record_b describe the same product variant?"
+    }
+  }
+}

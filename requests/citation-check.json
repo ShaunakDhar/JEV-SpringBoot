@@ -1,0 +1,17 @@
+{
+  "state": {
+    "claim": "The workshop takes place on Friday.",
+    "source": "The Java workshop runs on Friday from 10 AM until noon."
+  },
+  "questions": {
+    "verdict": {
+      "type": "choice",
+      "instructions": "Does source support claim?",
+      "criteria": {
+        "supported": "Source directly supports the claim",
+        "contradicted": "Source contradicts the claim",
+        "insufficient": "Source does not settle the claim"
+      }
+    }
+  }
+}

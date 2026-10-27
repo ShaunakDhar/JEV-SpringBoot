@@ -1,0 +1,23 @@
+{
+  "state": "To run the app, install Java 17 and Maven, then run mvn spring-boot:run from the project folder. Open http://localhost:8080.",
+  "questions": {
+    "clarity": {
+      "type": "score",
+      "instructions": "Rate how clearly the text explains what the reader should do.",
+      "criteria": [
+        "Poor",
+        "Adequate",
+        "Strong"
+      ]
+    },
+    "specificity": {
+      "type": "score",
+      "instructions": "Rate how concrete and actionable the instructions are.",
+      "criteria": [
+        "Poor",
+        "Adequate",
+        "Strong"
+      ]
+    }
+  }
+}
